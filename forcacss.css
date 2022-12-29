@@ -1,0 +1,105 @@
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner{
+    background-color:#530303;
+    align-items: center;
+    width: 320px;
+    height: 520px;
+    border-radius: 40px;
+    box-shadow: 1px 3px 10px rgb(46, 46, 46);
+}
+#titulo{
+color: aliceblue;
+font-size: 37px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
+position: relative;  left:33px ; top: 23px;
+}
+
+#conjuntoinput{
+position: relative;  right: 270px; bottom:100px;
+}
+
+#linha{
+    background-color:#ffffff;
+    align-items: center;
+    width: 320px;
+    height: 2px;
+    position: relative;  left:0px ; top: 32px;
+
+}
+#titulonome{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
+    position: absolute;  left:303px ; top: 183px;
+}
+
+#inputnome{
+    position: absolute;  left:384px ; top: 177px;
+    width: 172px;
+    height: 35px;
+    border-radius: 5px;
+    border:none;
+    
+}
+
+#tituloaltura{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
+    position: absolute;  left:303px ; top: 253px;
+}
+
+#inputaltura{
+    position: absolute;  left:384px ; top: 247px;
+    width: 172px;
+    height: 35px;
+    border-radius: 5px;
+    border:none;
+    
+}
+
+#titulopeso{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
+    position: absolute;  left:303px ; top: 323px;
+}
+
+#inputpeso{
+    position: absolute;  left:384px ; top: 317px;
+    width: 172px;
+    height: 35px;
+    border-radius: 5px;
+    border:none;
+    
+}
+#calcular{
+    position: absolute;  left:293px ; top: 390px;
+    width: 272px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: black;
+    color: #ffffff;
+    border-color: #530303;
+}
+#resultado{
+    width: 272px;
+    height: 105px;
+    background-color: #ffffff;
+    position: relative;  left:25px; top:350px;
+    border-radius: 6px;
+    box-shadow: 1px 3px 10px rgb(46, 46, 46);
+}
+#tr{
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
+    position: relative; top: 10px; left:7px;
+    width: 255px;
+
+}
